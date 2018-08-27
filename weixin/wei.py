@@ -9,5 +9,5 @@ def print_content333(msg):
     except:
         return
 
-itchat.auto_login(hotReload=True)
+itchat.auto_login(hotReload=True,enableCmdQR=True)
 itchat.run()
